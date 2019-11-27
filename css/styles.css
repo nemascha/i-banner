@@ -1,0 +1,124 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-family: "S FPro Text";
+	font-size: 2rem;
+}
+
+.content {
+	width: 97%;
+	margin: 50% 3%;
+    text-align: center;
+}
+
+.fa-times {
+	color: lightgray;
+	position: absolute;
+    right: 5%;
+    top: 2%;
+    font-size: 1.8em;
+}
+
+@media screen and (min-device-height: 800px) {
+	.fa-times {
+		top: 10%;
+	}
+}
+
+.main-heading {
+	font-family: "S FPro Display";
+	font-size: 5rem;
+	margin-bottom: 5%;
+}
+
+.pink {
+	color: #ee334b;
+}
+
+.btn-price {
+	margin: auto;
+	font-size: 1.1em;
+}
+
+.btn-border {
+	border: 0.1em solid #ee334b;
+	border-radius: 2em;
+	width: 90%;
+}
+
+.btn-content {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	height: 3em;
+	margin-bottom: 3%;
+	display: flex;
+    justify-content: space-between;
+}
+
+.first-heading {
+	font-weight: bold;
+}
+
+.btn {
+	font-size: 2rem;
+	color: white;
+	border: none;
+	border-radius: 2em;
+	background-image: linear-gradient(270deg, rgba(255,86,141,0.98) 0%, rgba(245,30,71,0.98) 100%);
+	width: 40%;
+    height: 70%;
+    margin: auto 3%;
+}
+
+.btn-text {
+	font-size: 0.84em;
+}
+
+.list-container {
+	display: flex;
+	justify-content: center;
+    text-align: start;
+    margin-top: 5%;
+}
+
+.list {
+	font-size: 1.1em;
+	list-style: none;
+	width: 50%;
+}
+
+.list-item {
+	margin-bottom: 3%;
+	display: flex;
+}
+
+.fa-check-circle {
+	color: #ee334b;
+}
+
+.list-item-text {
+	margin-left: 1%;
+}
+
+.bottom {
+	position: fixed;
+	width: 100%;
+	bottom: 1em;
+	font-size: 1.6em;
+	color: gray;
+	margin: 0 30%;
+}
+
+.bottom-links {
+	display: flex;
+}
+
+.bottom-link {
+	text-decoration: none;
+	margin: 1% 1% 0 0;	
+	background: linear-gradient(180deg, gray 20%, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
